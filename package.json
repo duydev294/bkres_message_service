@@ -1,0 +1,29 @@
+{
+  "name": "server_js_08_04",
+  "version": "1.0.0",
+  "description": "server for message device and save in DB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duydev294/server_message.git"
+  },
+  "keywords": [
+    "data"
+  ],
+  "author": "noru_dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duydev294/server_message/issues"
+  },
+  "homepage": "https://github.com/duydev294/server_message#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^5.13.20"
+  }
+}
